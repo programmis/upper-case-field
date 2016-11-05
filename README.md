@@ -1,3 +1,5 @@
+![alt tag](https://travis-ci.org/programmis/upper-case-field.svg?branch=master)
+
 1) Download composer :
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
