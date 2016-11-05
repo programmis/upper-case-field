@@ -1,0 +1,32 @@
+{
+  "name": "programmis/upper-case-field",
+  "description": "Setter method name and getter method name make by field name in upper case every first char",
+  "homepage": "https://github.com/programmis/upper-case-field",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Daniil Sazhin",
+      "email": "sazhin_daniil@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "scripts": {
+    "post-install-cmd": "php init --env=Development --overwrite=n",
+    "post-update-cmd": "php develop_init.php"
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "codeception/specify": "0.*",
+    "codeception/verify": "0.*",
+    "codeception/codeception": "2.*",
+    "squizlabs/php_codesniffer": "^2.3",
+    "codeception/c3": "2.*"
+  },
+  "autoload": {
+    "psr-4": {"lib\\": "lib"}
+  }
+}
